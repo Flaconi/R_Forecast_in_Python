@@ -1,18 +1,7 @@
 
-import pip
-import pyexasol
-import os
+
 import pandas as pd
 import numpy as np
-import importlib
-import time
-from sklearn import preprocessing
-import sys
-import datetime as dt
-from datetime import timedelta
-from datetime import date
-import importlib
-import pyexasol
 from statsmodels.tsa.seasonal import seasonal_decompose
 from statsmodels.tsa.holtwinters import ExponentialSmoothing
 

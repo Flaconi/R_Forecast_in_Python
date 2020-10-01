@@ -1,15 +1,6 @@
-import pyexasol
-import os
+
 import pandas as pd
 import numpy as np
-import importlib
-import time
-from sklearn import preprocessing
-import sys
-import datetime as dt
-from datetime import timedelta
-from datetime import date
-import importlib
 from sklearn.preprocessing import scale
 import scipy.cluster.hierarchy as sch
 from sklearn.cluster import AgglomerativeClustering

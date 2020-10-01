@@ -84,6 +84,6 @@ from src.Seasonality.model.cluster_seasonality.cluster_seasonality import comput
 result_list = compute_seasonal_decomposition(df, seas_groups,cat_lvl = 'CATEGORY_LEVEL',target_var = 'LOG_SALES_NORM',
                                               years = years, weeks = weeks)
 
-
+#write to database
 write_table_to_db(result_list, EXASOL_USERNAME, EXASOL_PASSWORD2, database_dev, data_schema= 'TEST_SANDBOX',
                       table_name= 'SKU_FCST_SEASONALITY')

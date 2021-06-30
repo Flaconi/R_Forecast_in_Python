@@ -94,3 +94,11 @@ def cluster_category_levels (df, perform_cluster, cat_lvl= 'CATEGORY_LEVEL', clu
 
     return Cluster_mapping
 
+
+# COMMAND ----------
+
+import pyspark
+
+# COMMAND ----------
+
+
